@@ -29,12 +29,12 @@ function App() {
   }, [timerRunning]);
 
 
-  
+
 
   return (
     <div className="App">
-    <Header />
-      <Card title="CARD" />
+    <Header  header="TimerApp" />
+      <Card title="component" />
      <p>my count is {count}</p>
      <button onClick={()=>startTimer()}> Increment the timer</button>
     </div>

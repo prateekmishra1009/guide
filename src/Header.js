@@ -2,7 +2,8 @@ import React from 'react'
 
 const Header = (props) => {
   return (
-    <div>This is header</div>
+    
+    <div>This is {props.header}</div>
   )
 }
 
